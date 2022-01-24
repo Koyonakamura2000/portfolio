@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon"
+      type="image/png"
+      href="../images/portraits/self-portrait-zoom-circle.svg"/>
+    <link href="../style.css" rel="stylesheet"/>
+    <script src="../scripts/project.js"></script>
+    <title>Modern Commerce Landscape</title>
+  </head>
+  <body class="test">
+    <header class="fixed">
+      <nav>
+        <div class="intro">
+          <a href="../index.html"><img src="../images/portraits/self-portrait.jpg"/></a>
+          <div>
+            <p>Hi, I'm <b>Koyo Nakamura</b>.</p>
+            <p id="tagline">UX Designer, Researcher, Front-End Developer.</p>
+          </div>
+        </div>
+        <div class="navlinks text-blue">
+          <a class="navlink selected" href="../index.html">My Work</a>
+          <a class="navlink" href="../about.html">About</a>
+          <a class="navlink" href="../pdfs/resume/11_2021_UX_Resume.pdf" target="_blank">Resume (PDF)</a>
+        </div>
+      </nav>
+    </header>
+    <hr class="method-hr fixed"/>
+    <main id="method">
+      <nav id="method-nav" class="fixed method-nav-gray">
+        <div class="method-nav-item selected">
+          <img src="../images/icons/overview-black.svg"/>
+          <h2><a href="#1">Overview</a></h2>
+        </div>
+        <div class="method-nav-item">
+          <img src="../images/icons/method-gray.svg"/>
+          <h2><a href="#2">Method</a></h2>
+        </div>
+        <div class="method-nav-submenu">
+          <h3><a href="#3">Context</a></h3>
+          <h3><a href="#4">Prototype v1</a></h3>
+          <h3><a href="#5">Feedback Sessions</a></h3>
+          <h3><a href="#6">Prototype v2</a></h3>
+          <h3><a href="#7">Implementation</a></h3>
+          <h3><a href="#8">Presentation 1</a></h3>
+          <h3><a href="#9">Final Website</a></h3>
+          <h3><a href="#10">Results</a></h3>
+        </div>
+        <div class="method-nav-item">
+          <img src="../images/icons/reflection-gray.svg"/>
+          <h2><a href="#11">Reflection</a></h2>
+        </div>
+      </nav>
+      <section class="method-content">
+        <article id="1" class="method-overview-one-column">
+          <div class="method-overview-video">
+            <video width="80%" controls><source src="../videos/commercetools_demo.mp4" type="video/mp4"/></video>
+          </div>
+          <div class="method-overview-summary">
+            <h1 class="method-overview-title">Modern Commerce Landscape</h1>
+            <div class="grid-two-column">
+              <div class="grid-item">
+                <h6 class="overview-grid-subheading">DURATION</h6>
+                <p>Jun 7, 2021 - Aug 13th, 2021</p>
+              </div>
+              <div class="grid-item">
+                <h6 class="overview-grid-subheading">ORGANIZATION</h6>
+                <p>commercetools</p>
+              </div>
+              <div class="grid-item">
+                <h6 class="overview-grid-subheading">FIELD(S)</h6>
+                <p>UX Design,<br />Frontend Development</p>
+              </div>
+              <div class="grid-item">
+                <h6 class="overview-grid-subheading">TOOLS</h6>
+                <p>Figma, Illustrator, HTML/CSS/JavaScript</p>
+              </div>
+              <div class="grid-item-wide">
+                <h6 class="overview-grid-subheading">ROLES/RESPONSIBILITIES</h6>
+                <p><b>Individual:</b> Usability tests, prototyping, UI design, frontend development</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <h2 id="2">Method</h2>
+        <article class="method-single-column">
+          <p>For my internship project at commercetools, I designed and developed <a class="mcl-link" href="https://moderncommercelandscape.com/">moderncommercelandscape.com</a>, a website that helps technical and non-technical users navigate the headless e-commerce landscape.</p>
+        </article>
+        <div class="research-question background-dark-blue">
+          <p>How can I help technical and non-technical businesses explore the modern e-commerce landscape?</p>
+        </div>
+        <h3 id="3">Context</h3>
+        <article class="method-single-column">
+          <p>In headless e-commerce, businesses combine multiple services to power their e-commerce platform. Unlike the traditional top-down approach where pushing changes requires a full update to the entire service, businesses that take advantage of headless e-commerce can choose to update specific parts of their service, resulting in quicker software updates. However, searching for and integrating the right services to match the business need can be difficult due to there being numerous vendors that provide similar features. For my internship project, I designed and developed a website that helps people make sense of headless e-commerce and facilitate further exploration.</p>
+        </article>
+        <h3 id="4">Prototype v1</h3>
+        <article class="method-single-column">
+          <p>In the initial meeting with my manager, I codesigned a rough prototype for how the website should look. In this 5 hour meeting, we established a preliminary list of features we need to support the end users and discussed potential designs.</p>
+          <p style="align-self: flex-start">List of desirable features:</p>
+          <ul>
+            <li>Stray from technical jargon as much as possible</li>
+            <li>Consider both technically fluent and novice users</li>
+            <li>Visually represent how headless commerce is "horizontal," not vertical (i.e., the traditional approach is top-down, coupling frontend and backend vs. headless approach is decoupled)</li>
+            <li>Facilitate sharing - save to PDF, shareable link</li>
+            <li>Ability to filter options</li>
+          </ul>
+          <p>With this initial list of design requirements, I brainstormed a couple concepts that focus on being <b>visually interactive</b> and <b>easy to consume</b>.</p>
+          <div class="image-with-caption">
+            <img src="../images/commercetools/protov1_2.png" />
+            <p>The initial design for exploring categories. Under each "lego," the user can find all the relevant services for that category, with the ability to filter as needed.</p>
+          </div>
+        </article>
+        <article class="method-single-column">
+          <div class="image-with-caption">
+            <img src="../images/commercetools/protov1_landing.png" />
+            <p>Discussion on potential landing pages - fewer options can be less overwhelming for novice users, while technically fluent users might rather see a full list of browsable options. Ultimately, we decided to move on with the second option.</p>
+          </div>
+        </article>
+        <h3 id="5">Feedback Sessions</h3>
+        <article class="method-single-column">
+          <p>With this initial prototype, I held two usability tests with my design peers and received the following feedback:</p>
+          <ul>
+            <li>Selecting categories was difficult because they didn't understand what many of the categories meant.</li>
+            <li>UI suggestions to improve the look of the website.</li>
+            <li>It was difficult to tell when an element (e.g., category tab) was selected.</li>
+          </ul>
+          <div class="image-with-caption">
+            <img src="../images/commercetools/protov1_feedback.png"/>
+            <p>Despite the bolded text and dark border, the difference between the selected and unselected tab was too minimal to be easily understandable</p>
+          </div>
+        </article>
+        <h3 id="6">Prototype v2<a class="heading-icon" href="../pdfs/commercetools/hifi.pdf" target="_blank"><img src="../images/icons/pdf.svg"/></a></h3>
+        <article class="method-single-column">
+          <p>Based on the feedback, I designed the second iteration of the website, focusing on the following changes:</p>
+          <ul>
+            <li>Adding beginner-friendly prompts and definitions to better support beginners in selecting categories.</li>
+            <li>Making selected elements more distinct through colors and hover/click feedback.</li>
+            <li>
+              Keeping calls to action (e.g., buttons) consistent so that the user knows where to click to go to the next page.
+            </li>
+          </ul>
+          <div class="image-with-caption">
+            <img src="../images/commercetools/buttons.jpg"/>
+            <p>Keeping action items consistent helps guide the user to the next screen.</p>
+          </div>
+        </article>
+        <h3 id="7">Implementation</h3>
+        <article class="method-single-column">
+          <p>Considering that the website is static, I implemented the website using Google App Engine using HTML, CSS, and JavaScript.</p>
+          <p>To facilitate making changes, I load data structures (e.g., list of vendors for a category) into index.js from data.js, and use that to update the website HTML.</p>
+          <img src="../images/commercetools/implementation.png" />
+        </article>
+        <h3 id="8">Presentation</h3>
+        <article class="method-single-column">
+          <p>I presented this second iteration of Modern Commerce Landscape to commercetools for a final round of feedback before I hand it off to my manager. The responses were largely positive and I received a few pieces of feedback:</p>
+          <ul>
+            <li>Color coding for Frontend, Backend, and Developer Tooling</li>
+            <li>Provide a descriptive README with instructions on how to edit the website data</li>
+          </ul>
+        </article>
+        <h3 id="9">Final Website<a class="heading-icon" href="https://moderncommercelandscape.com/" target="_blank"><img src="../images/icons/link.svg"/></a></h3>
+        <article class="method-single-column">
+          <p>The <a href="https://moderncommercelandscape.com">final website</a> features beginner-friendly prompts, a catalogue view for experienced users, color coded categories, and relevant links for each vendor. When the user finalizes their selections, they can generate a PDF or a shareable URL.</p>
+        </article>
+        <div id="mcl-grid" class="grid-three-column">
+          <div>
+            <div class="grid-three-column-img">
+              <img id="commercetools-grid-logo" src="../images/commercetools/website-logo.png" />
+            </div>
+            <p>Website logo emphasizes the horizontal nature of headless e-commerce.</p>
+          </div>
+          <div>
+            <div class="grid-three-column-img">
+              <img src="../images/commercetools/prompts.jpg" />
+            </div>
+            <p>Dropdown prompts use non-technical language to minimize specialized vocabulary and accommodate all users.</p>
+          </div>
+          <div>
+            <div class="grid-three-column-img">
+              <img src="../images/commercetools/categoryview.jpg" />
+            </div>
+            <p>For technical users (e.g., developers), the catalogue view shows all of the explorable options.</p>
+          </div>
+          <div>
+            <div class="grid-three-column-img">
+              <img src="../images/commercetools/tabs.jpg" />
+            </div>
+            <p>Emphasis with the color disparity and underline highlights the selected tab further. The tab also highlights when hovered over.</p>
+          </div>
+          <div>
+            <div class="grid-three-column-img">
+              <img src="../images/commercetools/contact.jpg" />
+            </div>
+            <p>By making the sharing of contact information optional, I allow all visitors to enjoy the full features while ensuring that those who share are willingly looking for further contact.</p>
+          </div>
+          <div>
+            <div class="grid-three-column-img">
+              <img src="../images/commercetools/savelinks.jpg" />
+            </div>
+            <p>The final screen with summaries for the vendors selected can be shared via saving to a PDF or generating a shareable link.</p>
+          </div>
+        </div>
+        <div class="spacer">
+        </div>
+        <h3 id="10">Results</h3>
+        <article class="method-single-column">
+          <p>After I finished deploying the final version of the website, I wrote up a README.md that explains how to make changes to data.js, which would update information for categories and vendors that show up on the website.</p>
+          <p>My project was met with positive feedback from my manager and the company as a useful tool for learning about the modern e-commerce landscape.</p>
+        </article>
+        <h2 id="11">Reflection</h2>
+        <h3>What I learned:</h3>
+        <article class="method-single-column">
+          <ul>
+            <li>The fast pace of a product-focused internship meant that I had to adapt my user-centered design method to have time to program and deploy.</li>
+            <li>Incorporating user testing early in the design process helps identify missing points early and saves time in the long run.</li>
+            <li>Importance of being able to accommodate sudden changes and redesign/program accordingly.</li>
+            <li>Communication - I learned that communicating that a suggested deadline is unfeasible is important to not overwork myself.</li>
+          </ul>
+        </article>
+        <h3>If I did this again, I would...</h3>
+        <article class="method-single-column">
+          <ul>
+            <li>Prioritize user testing early in the process by making quick, low-fidelity prototypes.</li>
+            <li>Consider setting up a backend for easier data manipulation, rather than editing the lengthy data.js.</li>
+            <li>Reference similar websites for design inspirations.</li>
+          </ul>
+        </article>
+        <footer class="method-footer">
+          <p id="footer-p">Page last edited: 10/25/2021. View on laptop/desktop for the best experience.</p>
+          <a href="https://www.linkedin.com/in/koyonakamura/"><img id = "linkedin-logo"
+            src="../images/linkedin-logos/linkedin-square.svg"/></a>
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon"
+      type="image/png"
+      href="../images/portraits/self-portrait-zoom-circle.svg"/>
+    <link href="../style.css" rel="stylesheet"/>
+    <script src="../scripts/project.js"></script>
+    <title>Night-Time Reflection Research</title>
+  </head>
+  <body class="test">
+    <header class="fixed">
+      <nav>
+        <div class="intro">
+          <a href="../index.html"><img src="../images/portraits/self-portrait.jpg"/></a>
+          <div>
+            <p>Hi, I'm <b>Koyo Nakamura</b>.</p>
+            <p id="tagline">UX Designer, Researcher, Front-End Developer.</p>
+          </div>
+        </div>
+        <div class="navlinks text-blue">
+          <a class="navlink selected" href="../index.html">My Work</a>
+          <a class="navlink" href="../about.html">About</a>
+          <a class="navlink" href="../pdfs/resume/11_2021_UX_Resume.pdf" target="_blank">Resume (PDF)</a>
+        </div>
+      </nav>
+    </header>
+    <main id="method">
+      <nav id="method-nav" class="fixed text-white method-nav-dark-gray">
+        <div class="method-nav-item selected">
+          <img src="../images/icons/overview-white.svg"/>
+          <h2><a href="#1">Overview</a></h2>
+        </div>
+        <div class="method-nav-item">
+          <img src="../images/icons/method-gray.svg"/>
+          <h2><a href="#2">Method</a></h2>
+        </div>
+        <div class="method-nav-submenu">
+          <h3><a href="#3">Context</a></h3>
+          <h3><a href="#4">User Research</a></h3>
+          <h3><a href="#5">Data Analysis</a></h3>
+          <h3><a href="#6">Findings</a></h3>
+          <h3><a href="#7">Design Recommendations</a></h3>
+          <h3><a href="#8">Results</a></h3>
+        </div>
+        <div class="method-nav-item">
+          <img src="../images/icons/reflection-gray.svg"/>
+          <h2><a href="#9">Reflection</a></h2>
+        </div>
+      </nav>
+      <section class="method-content background-black text-white">
+        <article id="1" class="method-overview-one-column">
+          <div class="method-overview-summary">
+            <h1 class="method-overview-title">Night-Time Reflection Research</h1>
+            <div class="grid-two-column">
+              <div class="grid-item">
+                <h6 class="overview-grid-subheading">DURATION</h6>
+                <p>Mar 2021 - Oct 2021</p>
+              </div>
+              <div class="grid-item">
+                <h6 class="overview-grid-subheading">ORGANIZATIONS</h6>
+                <p>Association of Computing Machinery,<br/>SIGDOC Student Research Competition</p>
+              </div>
+              <div class="grid-item">
+                <h6 class="overview-grid-subheading">FIELD(S)</h6>
+                <p>UX Research</p>
+              </div>
+              <div class="grid-item">
+                <h6 class="overview-grid-subheading">TOOLS</h6>
+                <p>Miro, Google Forms</p>
+              </div>
+              <div class="grid-item-wide">
+                <h6 class="overview-grid-subheading">ROLES/RESPONSIBILITIES</h6>
+                <p><b>Individual:</b> Data analysis, findings, design recommendations, publication</p>
+                <p><b>Collaborative:</b> Individual interviews, survey distribution</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <h2 id="2">Method</h2>
+        <article class="method-single-column">
+          <p>With help from Hannah Mei, Han Feng, and Sebastian Priss, I conducted research to write "Designing to Support Night-Time Reflection" which expands on existing literature about reflection design.</p>
+        </article>
+        <div class="research-question background-gray">
+          <p>How can I support people engaging in night-time reflection to improve their reflection experience and support them in taking action upon them?</p>
+        </div>
+        <h3 id="3">Context</h3>
+        <article class="method-single-column">
+          <p>Designing to support reflection is a relatively new field in HCI (Human-Computer Interaction), with minimal literature on what exactly reflection is and how best to design for it. In my research, I explore how designers could support reflection in a night-time context when people are preparing to sleep.</p>
+        </article>
+        <h3 id="4">User Research<a class="heading-icon" href="../pdfs/night-reflection/interviews.pdf" target="_blank"><img src="../images/icons/pdf-white.svg"/></a></h3>
+        <h4>Interview</h4>
+        <article class="method-single-column">
+          <p>We first conducted four semi-structured interviews with people who have reflected at night to explore <b>how they engage in night-time reflection</b> and their <b>emotional experience during reflection</b>. <i>*Names are in pseudonyms</i></p>
+          <div class="participant background-black">
+            <div class="participant-left-column">
+              <img src="../images/night-reflection/kyle.png"/>
+              <h5>Kyle</h5>
+            </div>
+            <div class="participant-right-column">
+              <p>Kyle typically reflects at night once out of every three nights, usually triggered by anxiety or recent academic shortcomings.</p>
+              <p class="participant-quotes">"It's always after I do poorly on a midterm, I don't do any of my homework, my reflection is like, 'how did I get here?' 'what led to this?' 'why do I keep making the same mistakes?'"</p>
+            </div>
+          </div>
+          <div class="participant background-black">
+            <div class="participant-left-column">
+              <img src="../images/night-reflection/paul.png"/>
+              <h5>Paul</h5>
+            </div>
+            <div class="participant-right-column">
+              <p>Paul engages himself with his phone or TV until he is exhausted, which helps him fall asleep immediately. He tries to avoid reflecting because thinking about things he has to do fills him with anxiety.</p>
+              <p class="participant-quotes">"...anxious about the future and I [don't] like thinking about past events."<br/>"I'm normally consumed with one issue that I have."</p>
+            </div>
+          </div>
+          <div class="participant background-black">
+            <div class="participant-left-column">
+              <img src="../images/night-reflection/toni.png"/>
+              <h5>Toni</h5>
+            </div>
+            <div class="participant-right-column">
+              <p>Toni engages in night-time reflection every day. If he is tired, he would spend between 15 to 30 minutes before falling asleep, but if not, he might spend as much as an hour reflecting. To prepare himself for sleep, he listens to guided meditation on his phone. He finds reflection to be a generally positive experience.</p>
+              <p class="participant-quotes">"I don't stress when I'm reflecting."<br />"I don't like it when [reflection] is too long."</p>
+            </div>
+          </div>
+          <div class="participant background-black">
+            <div class="participant-left-column">
+              <img src="../images/night-reflection/sean.png"/>
+              <h5>Sean</h5>
+            </div>
+            <div class="participant-right-column">
+              <p>Sean interacts with a lot of technology as he prepares to sleep, such as his phone and Amazon Alexa. He finds himself reflecting more when something upsetting recently happened.</p>
+              <p class="participant-quotes">"If there's something sad that happened... I try to reflect a bit more."<br/>"If I don't reflect and I don't think about anything, it's easy for me to fall asleep."</p>
+            </div>
+          </div>
+        </article>
+        <article class="method-single-column">
+          <p>We also conducted a survey over social media about experiences with reflection in the wider population. We received 44 responses from varying ages, but mostly from people between 18 and 22 years old.</p>
+          <p>We asked questions such as:</p>
+          <ul>
+            <li>Please rate your emotional experience when engaging in reflection.</li>
+            <li>How would you compare the way you reflect during the day vs at night?</li>
+            <li>Can you think of anything that could improve your night-time reflection experience?</li>
+          </ul>
+          <img src="../images/night-reflection/survey.jpg" />
+          <p><b>Survey insights:</b></p>
+          <ul>
+            <li>Around 4 out of 5 respondents (79.5%) engage in night-time reflection at least once a week.</li>
+            <li>Night-time reflection tends to be more negative compared to daytime reflection.</li>
+            <li>The lack of stimuli (e.g., being in darkness, quietness) triggers reflection.</li>
+            <li>Some participants purposely avoid reflection by engaging with their phone until they fall asleep.</li>
+          </ul>
+        </article>
+        <h3 id="5">Data Analysis</h3>
+        <article class="method-single-column">
+          <p>After open coding the interview transcripts, I organized codes into categories through affinity analysis. For the surveys, I performed quantitative analysis on the multiple choice and ranking questions and categorized salient open-ended responses with the interview codes. The interview and survey responses generally coincided, suggesting that the interview responses were fairly representative of the general opinion.</p>
+        </article>
+        <h3 id="6">Findings<a class="heading-icon" href="../pdfs/night-reflection/paper.pdf" target="_blank"><img src="../images/icons/pdf-white.svg"/></a></h3>
+        <article class="method-single-column">
+          <div class="one-column">
+            <div>
+              <h5>Varying attitudes toward technology use in bed</h5>
+              <p>Many participants (28/43) felt that the use of technology before bed reduces their quality of sleep, yet some relied on their mobile phones to record thoughts from reflection. Most participants found that looking at bright screens distracted from their efforts to go to sleep. Interestingly, some participants turned to digital technology to intentionally avoid reflection as “the less [they] think when trying to sleep, the better.”</p>
+            </div>
+            <div>
+              <h5>Difficulty in acting upon reflection takeaways</h5>
+              <p>Some participants felt frustrated when they failed to act upon their reflection takeaways. When asked a question about negative experiences during reflection, one participant replied, “when I don’t act upon my reflections. . . I start to feel really disappointed in myself.”</p>
+            </div>
+            <div>
+              <h5>Long reflection hinders efforts to sleep</h5>
+              <p>Spending a long time reflecting reduced participants’ quality of sleep. When they fell asleep quickly, participants mentioned feeling happier and more relaxed in the following day. The possibility of spending an excessive time reflecting influenced participants to prefer avoiding reflection.</p>
+            </div>
+            <div>
+              <h5>Triggers of night-time reflection</h5>
+              <p>Night-time reflective behavior was triggered by a number of factors. Physical and mental fatigue allowed participants to fall asleep quickly. The environment when preparing to sleep, with lights turned off, silence, and isolation, also triggered reflective behavior as people “[didn’t] have anything else to do,” as one interviewee stated.</p>
+            </div>
+          </div>
+        </article>
+        <h3 id="7">Design Recommendations<a class="heading-icon" href="../pdfs/night-reflection/paper.pdf" target="_blank"><img src="../images/icons/pdf-white.svg"/></a></h3>
+        <article class="method-single-column">
+          <p>Based on these findings, I developed the following list of design recommendations to consider when designing to support night-time reflection.</p>
+          <div class="one-column">
+            <div>
+              <h5 class="text-bright-blue">Stray from screen-based interactions</h5>
+              <p>Many participants (28/43) felt that the use of technology before bed reduces their quality of sleep, yet some relied on their mobile phones to record thoughts from reflection. Most participants found that looking at bright screens distracted from their efforts to go to sleep. Interestingly, some participants turned to digital technology to intentionally avoid reflection as “the less [they] think when trying to sleep, the better.”</p>
+            </div>
+            <div>
+              <h5 class="text-bright-blue">Support users in acting upon reflection takeaways</h5>
+              <p>Some participants felt frustrated when they failed to act upon their reflection takeaways. When asked a question about negative experiences during reflection, one participant replied, “when I don’t act upon my reflections. . . I start to feel really disappointed in myself.”</p>
+            </div>
+            <div>
+              <h5 class="text-bright-blue">Consider the negative emotions that might come up in night-time reflection.</h5>
+              <p>Spending a long time reflecting reduced participants’ quality of sleep. When they fell asleep quickly, participants mentioned feeling happier and more relaxed in the following day. The possibility of spending an excessive time reflecting influenced participants to prefer avoiding reflection.</p>
+            </div>
+          </div>
+        </article>
+        <h3 id="8">Results/Next Steps<a class="heading-icon" href="../pdfs/night-reflection/paper.pdf" target="_blank"><img src="../images/icons/pdf-white.svg"/></a></h3>
+        <article class="method-single-column">
+          <p>My research expands on the field of reflection design by detailing specific aspects to consider when designing a reflection-related intervention for the night-time context. I submitted my research to the SIGDOC Student Research Competition and it was accepted for publication at the 2021 SIGDOC conference (<a href="../pdfs/night-reflection/paper.pdf" target="_blank"><b><i>"Designing for Night-Time Reflection"</i></b></a>).</p>
+        </article>
+        <h2 id="9">Reflection</h2>
+        <h3>What I learned:</h3>
+        <article class="method-single-column">
+          <ul>
+            <li>Purposely using phones until they exhaust themselves to sleep was surprising.</li>
+            <li>Online surveys seem to be highly effective and insightful, especially during the pandemic.</li>
+            <li>Being the sole researcher responsible for data analysis was surprisingly easier (due to having only one interpreter of the data) at the cost of potential bias.</li>
+          </ul>
+        </article>
+        <h3>If I did this again, I would...</h3>
+        <article class="method-single-column">
+          <ul>
+            <li>Research a more specific question: How can we design something that allows the user to record thoughts without it being intrusive to sleep (e.g., not taking notes on devices with bright screens)</li>
+            <li>Interview people from different stages in life to see how attitudes toward sleep changes with age</li>
+            <li>Perform affinity analysis as a group to reduce unintentional bias in my interpretation of responses.</li>
+          </ul>
+        </article>
+        <footer class="method-footer">
+          <p id="footer-p" class="text-white">Page last edited: 10/24/2021. View on laptop/desktop for the best experience.</p>
+          <a href="https://www.linkedin.com/in/koyonakamura/"><img id = "linkedin-logo"
+            src="../images/linkedin-logos/linkedin-square.svg"/></a>
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon"
+      type="image/png"
+      href="../images/portraits/self-portrait-zoom-circle.svg"/>
+    <link href="../style.css" rel="stylesheet"/>
+    <script src="../scripts/project.js"></script>
+    <title>Watchful Walking</title>
+  </head>
+  <body class="test">
+    <header class="fixed">
+      <nav>
+        <div class="intro">
+          <a href="../index.html"><img src="../images/portraits/self-portrait.jpg"/></a>
+          <div>
+            <p>Hi, I'm <b>Koyo Nakamura</b>.</p>
+            <p id="tagline">UX Designer, Researcher, Front-End Developer.</p>
+          </div>
+        </div>
+        <div class="navlinks text-blue">
+          <a class="navlink selected" href="../index.html">My Work</a>
+          <a class="navlink" href="../about.html">About</a>
+          <a class="navlink" href="../pdfs/resume/11_2021_UX_Resume.pdf" target="_blank">Resume (PDF)</a>
+        </div>
+      </nav>
+    </header>
+    <hr class="method-hr fixed"/>
+    <main id="method">
+      <nav id="method-nav" class="fixed method-nav-gray">
+        <div class="method-nav-item selected">
+          <img src="../images/icons/overview-black.svg"/>
+          <h2><a href="#1">Overview</a></h2>
+        </div>
+        <div class="method-nav-item">
+          <img src="../images/icons/method-gray.svg"/>
+          <h2><a href="#2">Method</a></h2>
+        </div>
+        <div class="method-nav-submenu">
+          <h3><a href="#3">Context</a></h3>
+          <h3><a href="#4">User Research</a></h3>
+          <h3><a href="#5">User Modeling</a></h3> <!-- Persona, Journey Map -->
+          <h3><a href="#6">Design Requirements</a></h3>
+          <h3><a href="#7">Storyboards</a></h3>
+          <h3><a href="#8">Information Architecture</a></h3>
+          <h3><a href="#9">Paper Prototype</a></h3>
+          <h3><a href="#10">Evaluative Tests</a></h3>
+          <h3><a href="#11">Wireframes</a></h3>
+          <h3><a href="#12">High Fidelity Prototype</a></h3>
+        </div>
+        <div class="method-nav-item">
+          <img src="../images/icons/reflection-gray.svg"/>
+          <h2><a href="#13">Reflection</a></h2>
+        </div>
+      </nav>
+      <section class="method-content">
+        <article id="1" class="method-overview-one-column">
+          <img src="../images/hcde318/mockup.jpg"/>
+          <div class="method-overview-summary">
+            <h1 class="method-overview-title">Watchful Walking</h1>
+            <div class="grid-two-column">
+              <div class="grid-item">
+                <h6 class="overview-grid-subheading">DURATION</h6>
+                <p>Sep 25th, 2019 - Dec 6th, 2019</p>
+              </div>
+              <div class="grid-item">
+                <h6 class="overview-grid-subheading">ORGANIZATION</h6>
+                <p>University of Washington</p>
+              </div>
+              <div class="grid-item">
+                <h6 class="overview-grid-subheading">FIELD(S)</h6>
+                <p>UX Research, UX Design</p>
+              </div>
+              <div class="grid-item">
+                <h6 class="overview-grid-subheading">TOOLS</h6>
+                <p>Figma</p>
+              </div>
+              <div class="grid-item-wide">
+                <h6 class="overview-grid-subheading">ROLES/RESPONSIBILITIES</h6>
+                <p><b>Individual:</b> Semi-structured interview, storyboards</p>
+                <p><b>Collaborative:</b> User modeling, design requirements, information architecture, prototyping, evaluative tests</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <h2 id="2">Method</h2>
+        <article class="method-single-column">
+          <p>In collaboration with Hannah Mei, Varun Chawla, and Audrey Sun, I researched the college student experience of spending time in near-college streets and prototyped Watchful Walking, which aims to help students feel safer when on streets near campus.</p>
+        </article>
+        <div class="research-question background-light-blue">
+          <p>How can we increase college students' feeling of safety when navigating the Ave?</p>
+        </div>
+        <h3 id="3">Context</h3>
+        <article class="method-single-column">
+          <p>University Way Northeast, or, more commonly, "the Ave" is a long stretch of restaurants and shops that many University of Washington students who live in apartments commute through to attend classes. Unfortunately, the area also has a high crime rate and many students feel unsafe when walking alone. In this project, we followed the full user-centered design process to research how we could design something that helps people feel safer when commuting the Ave.</p>
+        </article>
+        <h3 id="4">User Research<a class="heading-icon" href="../pdfs/hcde318/1_user_research.pdf" target="_blank"><img src="../images/icons/pdf.svg"/></a></h3>
+        <article class="method-single-column">
+          <p>We first conducted four semi-structured interviews with University of Washington students who live in apartments and commute the Ave to research <b>the emotional and physical experience of commuting the Ave</b>. <i>*Names are in pseudonyms</i></p>
+          <div class="participants">
+            <div class="participant background-white">
+              <div class="participant-left-column">
+                <img src="../images/hcde318/participant1.jpg"/>
+                <h5>Brian</h5>
+              </div>
+              <div class="participant-right-column">
+                <p>Brian is a 20-year old male undergraduate student who typically walks through the Ave twice a day. He typically walks in the daytime alone and finds the commute to be fairly peaceful.</p>
+                <p class="participant-quotes">"[Walking] feels pretty peaceful, I enjoy it [because] it's quiet and relaxing."<br/>"If I were to encounter [a dangerous situation] I would avoid it... [or] confront it."</p>
+              </div>
+            </div>
+            <div class="participant background-white">
+              <div class="participant-left-column">
+                <img src="../images/hcde318/participant2.jpg"/>
+                <h5>Danny</h5>
+              </div>
+              <div class="participant-right-column">
+                <p>Danny is a 19-year old male sophomore who commutes every morning and evening and likes to hang out with his friends on the Ave. When out on the Ave until late, he feels safer if he is with his friends.</p>
+                <p class="participant-quotes">"I don't go to the Ave in super late hours, but if I do I'll feel safer in a group."<br/>"[Commuting] is not bad if it's in the daytime and I keep to myself."</p>
+              </div>
+            </div>
+            <div class="participant background-white">
+              <div class="participant-left-column">
+                <img src="../images/hcde318/participant3.jpg"/>
+                <h5>Stephen</h5>
+              </div>
+              <div class="participant-right-column">
+                <p>Stephen is a 21-year old male undergraduate student who commutes daily to campus. He feels unsafe when walking the Ave because of the large number of homeless people on the streets.</p>
+                <p class="participant-quotes">"There are lots of homeless people hanging out there. I try to walk with my friends if I can, it makes me feel much better."</p>
+              </div>
+            </div>
+            <div class="participant background-white">
+              <div class="participant-left-column">
+                <img src="../images/hcde318/participant4.jpg"/>
+                <h5>Anna</h5>
+              </div>
+              <div class="participant-right-column">
+                <p>Anna is a 19-year old female undergraduate student who commutes the Ave almost every day. She either walks alone or with one other person and feels nervous walking past people who are yelling and intoxicated.</p>
+                <p class="participant-quotes">"Nervous. Always people yelling and seemingly intoxicated in some form. Never know when someone's going to pull out a knife."</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <h3 id="5">User Modeling<a class="heading-icon" href="../pdfs/hcde318/2_persona.pdf" target="_blank"><img src="../images/icons/pdf.svg"/></a></h3>
+        <article class="method-single-column">
+          <p>We analyzed the interviews and developed two personas that represent the two prominent user groups - Max, who is concerned about saving time commuting, and Meg, who is concerned about safety. We decided to focus on designing for Meg because concern over safety was shared across most of the participants.</p>
+          <img src="../images/hcde318/persona.jpg"/>
+        </article>
+        <article class="method-single-column">
+          <p>The journey map below details a typical scenario where Meg walks home from campus. The map details interactions with technology to depict design contexts and situations.</p>
+          <img src="../images/hcde318/journey-map.jpg"/>
+        </article>
+        <h3 id="6">Design Requirements<a class="heading-icon" href="../pdfs/hcde318/4_design_req.pdf" target="_blank"><img src="../images/icons/pdf.svg"/></a></h3>
+        <article class="method-single-column">
+          <p>We then developed a list of design requirements that need be met by our design in order to empower Meg and help her feel safer walking back to her apartment alone at night. For each requirement, we considered the action, object, and context to ensure that our design features are relevant to users.</p>
+          <img src="../images/hcde318/design-req.jpg"/>
+        </article>
+        <h3 id="7">Storyboards<a class="heading-icon" href="../pdfs/hcde318/5_storyboards.pdf" target="_blank"><img src="../images/icons/pdf.svg"/></a></h3>
+        <article class="method-single-column">
+          <p>For our next step, we brainstormed use cases and depicted them through storyboards. My storyboard depicts a student contacting a friend to walk from his apartment to campus with. Through storyboarding, we were able to better visualize the use contexts and helped us prioritize the features that are most important.</p>
+          <img src="../images/hcde318/storyboard.jpg"/>
+        </article>
+        <h3 id="8">Information Architecture<a class="heading-icon" href="../pdfs/hcde318/6_design_arch.pdf" target="_blank"><img src="../images/icons/pdf.svg"/></a></h3>
+        <article class="method-two-column">
+          <div class="method-two-column-left">
+            <p>We then translated design requirements into necessary features of the app and placed them as branches of the information architecture tree. Organizing the necessary features in this way facilitated the making of our paper prototype by listing features necessary for each screen.</p>
+          </div>
+        </article>
+        <div class="wide-image-container">
+          <img src="../images/hcde318/infoarch.jpg" />
+        </div>
+        <h3 id="9">Paper Prototype<a class="heading-icon" href="../pdfs/hcde318/7_paper_proto.pdf" target="_blank"><img src="../images/icons/pdf.svg"/></a></h3>
+        <article class="method-single-column">
+          <p>Consulting the information architecture diagram, we created a paper prototype of our app to use for evaluative tests. We simulated interactions by using sticky notes for button presses and new sheets of paper for page transitions.</p>
+        </article>
+        <h3 id="10">Evaluative Tests<a class="heading-icon" href="../pdfs/hcde318/8_eval_finds.pdf" target="_blank"><img src="../images/icons/pdf.svg"/></a></h3>
+        <article class="method-single-column">
+          <p>We asked usability test participants to interact with the paper prototype to complete three tasks:</p>
+          <ol>
+            <li>Find and contact a friend using the map</li>
+            <li>Plan a trip from the home screen</li>
+            <li>Contact emergency services (911)</li>
+          </ol>
+          <p>We found that participants were confused about the meaning of icons and suggested adding profile pictures to indicate friends. Participants also had mixed opinions about whether the emergency contact feature was necessary because such a situation is extremely rare. <i>*view PDF for full list of findings</i></p>
+        </article>
+        <h3 id="11">Wireframes<a class="heading-icon" href="../pdfs/hcde318/9_wireframes.pdf" target="_blank"><img src="../images/icons/pdf.svg"/></a></h3>
+        <article class="method-single-column">
+          <p>We then considered the feedback from paper prototype evaluative tests to design wireframes for the final prototype.</p>
+          <img src="../images/hcde318/wireframe.jpg"/ />
+        </article>
+        <h3 id="12">High Fidelity Prototype<a class="heading-icon" href="../pdfs/hcde318/10_hifi_key_screens.pdf" target="_blank"><img src="../images/icons/pdf.svg"/></a></h3>
+        <article class="method-single-column">
+          <p>Finally, we created a high-fidelity prototype of "Watchful Walking," an app that helps users feel safer when navigating the Ave, highlighting the capabilities below: </p>
+          <ul>
+            <li>Ability to quickly call for emergency with a swipe feature on the home screen</li>
+            <li>Plan trips by considering light levels, number of people in proximity, and past crime records</li>
+            <li>Friend list of people in proximity to reach out to for companionship</li>
+          </ul>
+        </article>
+        <div class="wide-image-container">
+          <img src="../images/hcde318/cover-image.jpg" />
+        </div>
+        <h2 id="13">Reflection</h2>
+        <h3>What I learned:</h3>
+        <article class="method-single-column">
+          <ul>
+            <li>Data backs the unsafe experience that students feel on the Ave</li>
+            <li>Feelings of safety are heightened by being with someone</li>
+            <li>Light levels and population density are the biggest things people consider when choosing a route</li>
+          </ul>
+        </article>
+        <h3>If I did this again, I would...</h3>
+        <article class="method-single-column">
+          <ul>
+            <li>Dive deeper into rationale behind design decisions - specifically whether the emergency call feature is necessary</li>
+            <li>What can this app provide that can't be met with other apps?</li>
+            <li>Consider the feasibility of the solution harder since it is a pressing issue.</li>
+          </ul>
+        </article>
+        <footer class="method-footer">
+          <p id="footer-p">Page last edited: 10/25/2021. View on laptop/desktop for the best experience.</p>
+          <a href="https://www.linkedin.com/in/koyonakamura/"><img id = "linkedin-logo"
+            src="../images/linkedin-logos/linkedin-square.svg"/></a>
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>

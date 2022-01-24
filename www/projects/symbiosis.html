@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon"
+      type="image/png"
+      href="../images/portraits/self-portrait-zoom-circle.svg"/>
+    <link href="../style.css" rel="stylesheet"/>
+    <script src="../scripts/project.js"></script>
+    <title>Symbiosis</title>
+  </head>
+  <body>
+    <header class="fixed">
+      <nav>
+        <div class="intro">
+          <a href="../index.html"><img src="../images/portraits/self-portrait.jpg"/></a>
+          <div>
+            <p>Hi, I'm <b>Koyo Nakamura</b>.</p>
+            <p id="tagline">UX Designer, Researcher, Front-End Developer.</p>
+          </div>
+        </div>
+        <div class="navlinks text-blue">
+          <a class="navlink selected" href="../index.html">My Work</a>
+          <a class="navlink" href="../about.html">About</a>
+          <a class="navlink" href="../pdfs/resume/11_2021_UX_Resume.pdf" target="_blank">Resume (PDF)</a>
+        </div>
+      </nav>
+    </header>
+    <hr class="method-hr fixed"/>
+    <main id="method">
+      <nav id="method-nav" class="fixed method-nav-gray">
+        <div class="method-nav-item selected">
+          <img src="../images/icons/overview-black.svg"/>
+          <h2><a href="#1">Overview</a></h2>
+        </div>
+        <div class="method-nav-item">
+          <img src="../images/icons/method-gray.svg"/>
+          <h2><a href="#2">Method</a></h2>
+        </div>
+        <div class="method-nav-submenu">
+          <h3><a href="#3">Context</a></h3>
+          <h3><a href="#4">User Research</a></h3>
+          <h3><a href="#5">Data Analysis</a></h3>
+          <h3><a href="#6">Design Requirements</a></h3>
+          <h3><a href="#7">Ideation</a></h3>
+          <h3><a href="#8">Prototype v1</a></h3>
+          <h3><a href="#9">Final Prototype</a></h3>
+          <h3><a href="#10">Results</a></h3>
+        </div>
+        <div class="method-nav-item">
+          <img src="../images/icons/reflection-gray.svg"/>
+          <h2><a href="#11">Reflection</a></h2>
+        </div>
+      </nav>
+      <section class="method-content">
+        <article id="1" class="method-overview-one-column">
+          <img src="../images/redcedar/mockup_3.jpg"/>
+          <h1 class="method-overview-title">Symbiosis</h1>
+          <div class="method-overview-summary">
+            <div class="grid-two-column">
+              <div class="grid-item">
+                <h6 class="overview-grid-subheading">DURATION</h6>
+                <p>Jan 8, 2021 - Mar 12, 2021</p>
+              </div>
+              <div class="grid-item">
+                <h6 class="overview-grid-subheading">ORGANIZATION</h6>
+                <p>ForestHealthWatch</p>
+              </div>
+              <div class="grid-item">
+                <h6 class="overview-grid-subheading">FIELD(S)</h6>
+                <p>UX Research, UX Design</p>
+              </div>
+              <div class="grid-item">
+                <h6 class="overview-grid-subheading">TOOLS</h6>
+                <p>Figma, Miro</p>
+              </div>
+              <div class="grid-item-wide">
+                <h6 class="overview-grid-subheading">ROLES/RESPONSIBILITIES</h6>
+                <p><b>Individual:</b> Conducting interviews, open-coding transcriptions, v1 and v2 prototypes</p>
+                <p><b>Collaborative:</b> Affinity analysis, design requirements</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 399.55 280"><defs><style>.cls-1{fill:#ed1c24;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><ellipse class="cls-1" cx="212.16" cy="140" rx="187.39" ry="140"/><ellipse class="cls-1" cx="63.9" cy="263.04" rx="25.22" ry="16.96"/><ellipse class="cls-1" cx="12.38" cy="271.67" rx="12.38" ry="8.33"/></g></g></svg> -->
+        <h2 id="2">Method</h2>
+        <article class="method-single-column">
+          <p>In collaboration with Lyle Hamm, Linh Bui, and Laura Munoz of the University of Washington, I researched, designed, and prototyped “Symbiosis,” an app that encourages people to interact with and appreciate nature.</p>
+        </article>
+        <div class="research-question background-green">
+          <p>How can we inspire more people to <b>connect with nature</b> and be invested in the health of their local ecosystem?</p>
+        </div>
+        <h3 id="3">Context</h3>
+        <article class="method-single-column">
+          <p>ForestHealthWatch monitors Western Red Cedar dieback as an indicator for the effects of climate change in the Pacific Northwest. Currently, however, they only have about 100 volunteers collecting this data. Therefore, our goal for this project was to ideate gamification concepts that could inspire more people to be more invested in their local ecosystem and get involved with projects such as ForestHealthWatch.</p>
+        </article>
+        <h3 id="4">User Research<a class="heading-icon" href="../pdfs/redcedar/interview-transcript.pdf" target="_blank"><img src="../images/icons/pdf.svg"/></a></h3>
+        <article class="method-single-column">
+          <p>We first conducted four semi-structured interviews with young adults who enjoy going outdoors to explore <b>how people currently interact with nature</b> when outdoors and <b>what motivates them to go outdoors</b>. <i>*Names are in pseudonyms</i></p>
+          <div class="participants">
+            <div class="participant background-white">
+              <div class="participant-left-column">
+                <img src="../images/redcedar/participant1.jpg"/>
+                <h5>Derek</h5>
+              </div>
+              <div class="participant-right-column">
+                <p>Derek loves to go outdoors when it is with his friends or family. He finds the outdoors refreshing and uses the opportunity to disconnect himself from technology.</p>
+                <p class="participant-quote">"I love going on hikes or walking with friends."</p>
+              </div>
+            </div>
+            <div class="participant background-white">
+              <div class="participant-left-column">
+                <img src="../images/redcedar/participant2.jpg"/>
+                <h5>Eric</h5>
+              </div>
+              <div class="participant-right-column">
+                <p>Eric aims to step outside at least once a day to refresh himself when he is feeling stressed. He finds nature to be meditative and restorative.</p>
+                <p class="participant-quote">"I grew up a foot away from a national park... so nature is very important."</p>
+                <p class="participant-quote">"Sometimes I feel obligated to take pictures. But I prefer to enjoy the scenery."</p>
+              </div>
+            </div>
+            <div class="participant background-white">
+              <div class="participant-left-column">
+                <img src="../images/redcedar/participant3.jpg"/>
+                <h5>Sarah</h5>
+              </div>
+              <div class="participant-right-column">
+                <p>Sarah likes to engage in some sort of structured activity when she goes outside. Recently, she likes to use the Nike running app to track her distance as she runs, which helps her feel accomplished.</p>
+                <p class="participant-quote">"Running - people don't bother me. I don't have to talk to people."</p>
+                <p class="participant-quote">"I use the Nike Run Club app - it gets me out more often because it gamifies it."</p>
+              </div>
+            </div>
+            <div class="participant background-white">
+              <div class="participant-left-column">
+                <img src="../images/redcedar/participant4.jpg"/>
+                <h5>Shaun</h5>
+              </div>
+              <div class="participant-right-column">
+                <p>Shaun is very active, going on morning runs every day to keep himself fit. He carries his Apple watch to track his distance and time.</p>
+                <p class="participant-quote">"I don't have to think very much. I could just listen to music and go out any time I want."</p>
+                <p class="participant-quote">"It's nature, so I feel like it's healing my body."</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <h3 id="5">Data Analysis<a class="heading-icon" href="https://miro.com/app/board/o9J_lVWWXpI=/?moveToWidget=3074457354517712266&cot=14" target="_blank"><img src="../images/icons/link.svg"/></a></h3>
+        <article class="method-single-column">
+          <p>After we each revisited our interview transcripts and marked significant details with open coding, we used affinity analysis to group and categorize insights. Key insights shared among the participants include:</p>
+          <ul>
+            <li>Varying attitudes toward the use of technology when outdoors, but all were eager to “disconnect from the network” (e.g., social media)</li>
+            <li>Participants were motivated by having some sort of structured activity to engage in when outdoors</li>
+            <li>Being with friends and family improves the outdoor experience</li>
+          </ul>
+          <img src="../images/redcedar/affinity-diagram.jpg"/>
+        </article>
+        <h3 id="6">Design Requirements</h3>
+        <article class="method-single-column">
+          <p>Based on our insights, we came up with the following design requirements that support our participants’ desires and motivations:</p>
+          <ol>
+            <li>Allow "disconnecting" from the network - interactions should not involve social networks</li>
+            <li>Promote physical, social interactions</li>
+            <li>Provide explicit motivations for going outside (quests)</li>
+          </ol>
+        </article>
+        <h3 id="7">Ideation</h3>
+        <article class="method-single-column">
+          <p>We then each sketched six ideas surrounding a <b>social activity that promotes being present with nature</b>. After synthesizing and dot voting on design ideas, we decided to proceed with a <b>gamified nature app with quests and a focus on community.</b></p>
+          <img id="redcedar-ideation" src="../images/redcedar/sketches.jpg"/>
+        </article>
+        <h3 id="8">Prototype Version 1<a class="heading-icon" href="../pdfs/redcedar/v1prototype.pdf" target="_blank"><img src="../images/icons/pdf.svg"/></a></h3>
+        <article class="method-single-column">
+          <p>I quickly designed a low-fidelity prototype of Symbiosis in Figma and asked for feedback from ForestHealthWatch and peer designers about the design's desirability and aesthetics.</p>
+          <img id="symbiosisv1" src="../images/redcedar/v1prototype.jpg"/>
+          <p style="align-self: flex-start">Key pieces of feedback I received:</p>
+          <ul>
+            <li>Add more features that support socialization, as according to interviewees, it was a key motivator for going outside.</li>
+            <li>Consider how the app would connect to ForestHealthWatch</li>
+            <li>Consider how the concept of symbiosis can be reflected more in the app</li>
+          </ul>
+        </article>
+        </article>
+        <h3 id="9">Final Prototype<a class="heading-icon" href="../pdfs/redcedar/v2prototype.pdf" target="_blank"><img src="../images/icons/pdf.svg"/></a></h3>
+        <article class="method-single-column">
+          <p style="align-self: flex-start">Rationale for major design features marked on image:</p>
+          <ol>
+            <li>Providing badges to work toward incentivizes continuous engagement with the app and motivation.</li>
+            <li>Knowing that people have different preferences for technology use outdoors, I give users the option to not participate in the activity if desired.</li>
+            <li>Challenges focus on mindfulness to encourage users to connect with nature.</li>
+            <li>Connecting with friends and comparing collections for social motivation.</li>
+            <li>Interested users can click "Read more" to find activist groups for specific plants/trees.</li>
+          </ol>
+          <img src="../images/redcedar/hifi.jpg"/>
+        </article>
+        <h3 id="10">Results</h3>
+        <article class="method-single-column">
+          <p>The prototype was met with <b>positive feedback from ForestHealthWatch</b>, who were inspired to implement some of our concepts embedded in the design:</p>
+          <ul>
+            <li>Incentivize participation in data collection with rewards (e.g., gift cards)</li>
+            <li>Provide space for collaboration/competition as social motivations</li>
+            <li>Gamify data collection for unmapped areas</li>
+          </ul>
+        </article>
+        <h2 id="11">Reflection</h2>
+        <h3>What I learned:</h3>
+        <article class="method-single-column">
+          <ul>
+            <li>Importance of initial scoping of project: it was difficult to prototype concrete approaches to meet participant needs/desires.</li>
+            <li>Surprisingly, participants already felt a spiritual connection to nature when outdoors.</li>
+            <li>Importance of considering feasibility in the final prototype: although ForestHealthWatch took inspiration from our ideas, many concepts in our designs proved to be too complex to implement.</li>
+          </ul>
+        </article>
+        <h3>If I did this again, I would...</h3>
+        <article class="method-single-column">
+          <ul>
+            <li>Communicate the importance of considering feasibility in the ideation phase to my teammates.</li>
+            <li>Do another round of user research after narrowing down research goals.</li>
+            <li>Analyze existing products that do similar things (e.g., iNaturalist) to see how we can address gaps in their approaches.</li>
+          </ul>
+        </article>
+        <footer class="method-footer">
+          <p id="footer-p">Page last edited: 10/22/2021. View on laptop/desktop for the best experience.</p>
+          <a href="https://www.linkedin.com/in/koyonakamura/"><img id="linkedin-logo"
+            src="../images/linkedin-logos/linkedin-square.svg"/></a>
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>
