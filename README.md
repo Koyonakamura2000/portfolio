@@ -1,5 +1,5 @@
 # Portfolio website
-HTML, CSS, JavaScript files I used to make my portfolio website (koyonakamura.com). 
+HTML, CSS, JavaScript files I used to make my portfolio website (koyonakamura.com). The files are located inside the 'www' folder.
 
 ## Tools
 HTML, CSS, JavaScript
